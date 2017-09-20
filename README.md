@@ -174,7 +174,7 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 
 1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
 
-    1. Right-Click the **Python3_Demo.ipynb** file
+    1. Right-click the **Python3_Demo.ipynb** file
     2. Click **'Save Link As...'**
     3. Save the file to your local workstation
 
@@ -187,8 +187,11 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 
 3. Upload the Jupyter Notebook from your local workstation.    
     1. Click **'Upload'**
-    2. Select the file
+       ![alt text](images/upload-notebook.png "Upload Notebook")
+    2. Select the file Python3_Demo.ipynb from your local workstation
     3. Click **'Open'**
+
+4. Double click **'Python3_Demo.ipynb'**
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
