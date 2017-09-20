@@ -174,9 +174,15 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 
 1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
 
-    1. Right-click the **Python3_Demo.ipynb** file
-    2. Click **'Save Link As...'**
-    3. Save the file to your local workstation
+    1. Click the **Python3_Demo.ipynb** file
+    
+    
+    
+    2. Click **'Raw'**
+    
+    
+    
+    3. From your browser's 'File' menu, select 'Save Page As...'
 
 2. Launch the Jupyter Notebook service from your dashboard in your browser.
     1. Click **‘Jupyter’**
@@ -190,6 +196,10 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
        ![alt text](images/upload-notebook.png "Upload Notebook")
     2. Select the file Python3_Demo.ipynb from your local workstation
     3. Click **'Open'**
+
+4. Click **'Upload'**
+
+       ![alt text](images/upload-notebook2.png "Upload Notebook2")
 
 4. Double click **'Python3_Demo.ipynb'**
  
