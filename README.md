@@ -1,3 +1,4 @@
+# **** Work in Progress ****
 # Running Analytics on z/OS
 
 ## Overview
@@ -112,3 +113,39 @@ This Scala program will access DB2 and VSAM data, perform transformations on the
    + The first table shows the top 20 rows of the VSAM data (customer information).
    + The second table shows the top 20 rows of the DB2 data (transaction data).
    + The third table shows the top 20 rows of the result ‘client_join’ table.
+   
+## Step 5. Working with Jupyter Notebook – Python example
+In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
+The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a pandas dataframe using python APIs and create plots using matplotlib. It will also perform a random forrest regression analysis and plot several charts.
+
+1. Download the [Jupyter Notebook](https://some-url) to your local system.
+
+2. Launch the Jupyter Notebook service from your dashboard in your browser.
+    1. Click **‘Jupyter’**
+ 
+       You will see the Jupyter Notebook home page.
+3. Upload the Jupyter Notebook from your local system.    
+    1. Click .....
+    2. Select file
+ 
+The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
+ 
+3.	The Jupyter Notebook environment is divided into input cells labeled with ‘In [#]:’.  
+Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
+	Click on the first ‘In [ ]:’
+The left border will change to blue when a cell is in command mode.
+	Click in the cell to edit
+The left border will change to green when a cell is in edit mode.
+	Change the value of USERNAME to your ‘z/OS Instance Username’
+	Change the value of PASSWORD to your ‘z/OS Instance Password’
+	Change the value of MDSS_SSID to ‘AZK1’
+	Change the value of DB2_SSID to ‘DBBG’
+ 
+Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
+	Click the run cell button as shown below:
+ 
+The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
+ 
+4.	When this indicator turns clear, the cell run has completed and returned to the ready state.
+5.	Continue to click and run the remaining ‘In [ ]:’.
+
