@@ -182,7 +182,7 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
     
     ![alt text](images/click-raw.png "Click Raw")
     
-    3. From your browser's 'File' menu, select 'Save Page As...'
+    3. From your browser's 'File' menu, select 'Save Page As...', keep the file name 'Python3_Demo.ipynb', and click 'Save'
 
 2. Launch the Jupyter Notebook service from your dashboard in your browser.
     1. Click **‘Jupyter’**
@@ -194,34 +194,36 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 3. Upload the Jupyter Notebook from your local workstation.    
     1. Click **'Upload'**
        ![alt text](images/upload-notebook.png "Upload Notebook")
-    2. Select the file Python3_Demo.ipynb from your local workstation
+    2. Select Python3_Demo.ipynb from your local workstation
     3. Click **'Open'**
     4. Click **'Upload'**
        
        ![alt text](images/upload-notebook2.png "Upload Notebook2")
 
 4. Click **'Python3_Demo.ipynb'**
+      
+      ![alt text](images/click-python3.png "Click Python3")
  
-The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
- 
-6.	The Jupyter Notebook environment is divided into input cells labeled with **‘In [#]:’**.  
-Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
+The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. The environment is divided into input cells labeled with **‘In [#]:’**.  
+
+5. Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
+    
     1. Click on the first **‘In [ ]:’**
 The left border will change to blue when a cell is in command mode.
-	Click in the cell to edit
+    
+    2. Click in the cell to edit
 The left border will change to green when a cell is in edit mode.
-	Change the value of USERNAME to your **‘Analytics Instance Username’**
-	Change the value of PASSWORD to your **‘Analytics Instance Password’**
-	Change the value of MDSS_SSID to **‘AZK1’**
-	Change the value of DB2_SSID to **‘DBBG’**
+
+    3. Change the value of USERNAME to your **‘Analytics Instance Username’**
+	 4. Change the value of PASSWORD to your **‘Analytics Instance Password’**
  
 Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
-	Click the run cell button as shown below:
+6. Click the run cell button as shown below:
  
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
  
-4.	When this indicator turns clear, the cell run has completed and returned to the ready state.
-5.	Continue to click and run the remaining **‘In [ ]:’**.
+7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
+8.	Continue to click and run the remaining **‘In [ ]:’**.
 
 
 
