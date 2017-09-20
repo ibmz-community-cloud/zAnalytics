@@ -68,10 +68,10 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    + [DB2 DDL: sppaytb1.ddl](https://some-url)
    
    Follow these steps if you wish to upload your own DB2 data.    
-    1. Click ‘Upload Data’ 
+    1. Click **‘Upload Data’** 
     2. Select the DB2 DDL file
     3. Select the DB2 data file
-    4. Click ‘Upload’
+    4. Click **‘Upload’**
  
    You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
 
@@ -80,13 +80,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    + [VSAM copybook: VSAM.COPYBOOK](https://some-url)
    
    Follow these steps if you wish to upload your own VSAM data. 
-    1. Click ‘Upload Data’ 
+    1. Click **‘Upload Data’**
     2. Select the VSAM copybook
     3. Select the VSAM data file
     4. Enter your original (existing) VSAM data file name
     5. Enter a target (new) VSAM data file name
     6. Enter a virtual table name for your target VSAM data file 
-    7. Click ‘Upload’
+    7. Click **‘Upload’**
  
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
@@ -99,7 +99,7 @@ This Scala program will access DB2 and VSAM data, perform transformations on the
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
     4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
-    5. Click ‘Submit’
+    5. Click **‘Submit’**
  
    **“JOB Submitted”** will appear in the dashboard when the program is complete. 
 
@@ -134,16 +134,16 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
-3.	The Jupyter Notebook environment is divided into input cells labeled with ‘In [#]:’.  
+3.	The Jupyter Notebook environment is divided into input cells labeled with **‘In [#]:’**.  
 Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
-	Click on the first ‘In [ ]:’
+	Click on the first **‘In [ ]:’**
 The left border will change to blue when a cell is in command mode.
 	Click in the cell to edit
 The left border will change to green when a cell is in edit mode.
-	Change the value of USERNAME to your ‘z/OS Instance Username’
-	Change the value of PASSWORD to your ‘z/OS Instance Password’
-	Change the value of MDSS_SSID to ‘AZK1’
-	Change the value of DB2_SSID to ‘DBBG’
+	Change the value of USERNAME to your **‘Analytics Instance Username’**
+	Change the value of PASSWORD to your **‘Analytics Instance Password’**
+	Change the value of MDSS_SSID to **‘AZK1’**
+	Change the value of DB2_SSID to **‘DBBG’**
  
 Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
 	Click the run cell button as shown below:
@@ -151,5 +151,5 @@ Execute the Python code in the first cell. Jupyter Notebook will check the Pytho
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
  
 4.	When this indicator turns clear, the cell run has completed and returned to the ready state.
-5.	Continue to click and run the remaining ‘In [ ]:’.
+5.	Continue to click and run the remaining **‘In [ ]:’**.
 
