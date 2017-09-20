@@ -172,7 +172,11 @@ In this section, you will use the Jupyter Notebook tool that is installed in the
 
 The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a pandas dataframe using python APIs and create plots using matplotlib. It will also perform a random forrest regression analysis and plot several charts.
 
-1. Download the [Python3_Demo.ipynb](https://some-url) file to your local workstation.
+1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
+
+    1. Right-Click the **Python3_Demo.ipynb** file
+    2. Click **'Save Link As...'**
+    3. Save the file to your local workstation
 
 2. Launch the Jupyter Notebook service from your dashboard in your browser.
     1. Click **‘Jupyter’**
