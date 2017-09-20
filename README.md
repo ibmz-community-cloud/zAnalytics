@@ -198,16 +198,16 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
     3. Click **'Open'**
 
 4. Click **'Upload'**
+       
+      ![alt text](images/upload-notebook2.png "Upload Notebook2")
 
-       ![alt text](images/upload-notebook2.png "Upload Notebook2")
-
-4. Double click **'Python3_Demo.ipynb'**
+5. Click **'Python3_Demo.ipynb'**
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
-3.	The Jupyter Notebook environment is divided into input cells labeled with **‘In [#]:’**.  
+6.	The Jupyter Notebook environment is divided into input cells labeled with **‘In [#]:’**.  
 Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
-	Click on the first **‘In [ ]:’**
+    1. Click on the first **‘In [ ]:’**
 The left border will change to blue when a cell is in command mode.
 	Click in the cell to edit
 The left border will change to green when a cell is in edit mode.
