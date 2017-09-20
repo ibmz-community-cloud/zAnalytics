@@ -1,0 +1,9 @@
+       01  CUSTOMER-RECORD.
+           10 CONT_ID               PIC 9(10).
+           10 GENDER                PIC 9.
+           10 AGE_YEARS             PIC 9(4)V9(2).
+           10 HIGHEST_EDU           PIC 9.
+           10 ANNUAL_INVEST         PIC 9(9)V9(3).
+           10 ANNUAL_INCOME         PIC 9(9)V9(3).
+           10 ACTIVITY_LEVEL        PIC 9.
+           10 CHURN                 PIC 9.
