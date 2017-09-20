@@ -137,7 +137,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
     5. Click **‘Submit’**
     
-       [alt text](images/spark-submit-details.png "Spark-submit details")
+       ![alt text](images/spark-submit-details.png "Spark-submit details")
  
    **“JOB Submitted”** will appear in the dashboard when the program is complete. 
 
