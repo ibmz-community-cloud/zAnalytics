@@ -29,53 +29,76 @@ To be added
 Note: The Mozilla Firefox browser is recommended for these examples.
 
 1. Open a web browser and access the [IBM Z Community Cloud self-service portal](https://zcloud.marist.edu/#/login). 
+   
+   ![alt text](images/portal_login.png "Portal login")
+
     1. Enter your Portal User ID and Portal Password
     2. Click **'Sign In'**
+       You will see the home page for the IBM Z Community Cloud self-service portal.  
+       
+2. Select the **Analytics Service**.
 
-2. You will see the home page for the IBM Z Community Cloud self-service portal.  
     1. Click **'Try Analytics Service'**
+    
+   ![alt text](images/try-service.png "Try Analytics Service")
  
 3. You will now see a dashboard, which shows the status of your Analytics instance. 
-   + At the top of the screen, notice the **'z/OS Status'** indicator, which should show the status of your instance as **'OK'**.
+
+   ![alt text](images/dashboard.png "Dashboard")
+   
+   + At the top of the screen, notice the **'z/OS Status'** indicator, which should show the status of your instance as **'OK'**.     
    + In the middle of the screen, the **‘Analytics Instance’**, **‘Status’**, **‘Data management’**, and **‘Operations’** sections will be displayed. The **‘Analytics Instance’** section contains your individual Analytics Instance Username and IP address.
    + Below the field headings, you will see buttons for functions that can be applied to your instance. 
  
-   The following table lists the operation for each function:
+  The following table lists the operation for each function:
 
-   | Function        | Operation                                                  | 
-   | --------------- | ---------------------------------------------------------- | 
-   | Change Password | Click to change your Analytics Instance password           |
-   | Start           | Click to start your individual Spark cluster               |        
-   | Stop            | Click to stop your individual Spark cluster                | 
-   | Upload Data     | Click to select and load your DDL and data file into DB2   | 
-   | Spark Submit    | Click to select and run your Spark program                 | 
-   | Spark UI        | Click to launch your individual Spark worker output GUI    | 
-   | Jupyter         | Click to launch your individual Jupyter Notebook GUI       | 
+  | Function        | Operation                                                  | 
+  | --------------- | ---------------------------------------------------------- | 
+  | Change Password | Click to change your Analytics Instance password           |
+  | Start           | Click to start your individual Spark cluster               |        
+  | Stop            | Click to stop your individual Spark cluster                | 
+  | Upload Data     | Click to select and load your DDL and data file into DB2   | 
+  | Spark Submit    | Click to select and run your Spark program                 | 
+  | Spark UI        | Click to launch your individual Spark worker output GUI    | 
+  | Jupyter         | Click to launch your individual Jupyter Notebook GUI       | 
 
 ## Step 3. Configure your Analytics Instance and upload data
 
-1. For logging in the first time, you must set a new Analytics Instance password 
+1. For logging in the first time, you must set a new Analytics Instance password.
+   
+   ![alt text](images/change-password.png "Change password")
+   
     1. Click **‘Change Password’** in the **‘Analytics Instance’** section
     2. Enter a **new password** for your Analytics Instance
     3. Repeat the **new password** for your Analytics Instance
     4. Click **‘Change Password’**
  
+   ![alt text](images/change-password-details.png "Change password details")
+   
 2. Confirm your instance is Active. 
+
     1. If it is **‘Stopped’**, click **‘Start’** to start it
+   
+   ![alt text](images/start-stop.png "Start an instance")
  
 3. (Optional) The DB2 data for this exercise has already been loaded for you, no further action is required. The DDL and DB2 data file are provided here for your reference.  
+
    + [DB2 data file: sppaytb1.data](https://some-url)
    + [DB2 DDL: sppaytb1.ddl](https://some-url)
    
    Follow these steps if you wish to upload your own DB2 data.    
-    1. Click **‘Upload Data’** 
+    1. Click **‘Upload Data’**        
     2. Select the DB2 DDL file
     3. Select the DB2 data file
     4. Click **‘Upload’**
+    
+       ![alt text](images/upload-data.png "Upload data")
+       ![alt text](images/upload-db2.png "Upload Db2")
  
    You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
 
 4. (Optional) The VSAM data for this exercise has already been loaded for you, no further action is required. The VSAM copybook and VSAM data file are provided here for your reference.  
+
    + [VSAM data file: VSAM.BACKUP.DUMP.TERSE](https://some-url)
    + [VSAM copybook: VSAM.COPYBOOK](https://some-url)
    
@@ -87,28 +110,43 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     5. Enter a target (new) VSAM data file name
     6. Enter a virtual table name for your target VSAM data file 
     7. Click **‘Upload’**
+   
+       ![alt text](images/upload-vsam.png "Upload VSAM")
  
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
-This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
+The sample Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
 1. Download the prepared Scala program [ClientJoinVSAM.jar](https://some-url) to your local workstation.
 
+    1. Click the file name.
+    2. Click Download.
+    
+   ![alt text](images/download-scala.png "Download sample scala program") 
+
 2. Submit the downloaded Scala program to analyze the data. 
+    
     1. Click **‘Spark Submit’** 
+       ![alt text](images/spark-submit.png "Spark submit")
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
     4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
     5. Click **‘Submit’**
+       [alt text](images/spark-submit-details.png "Spark-submit details")
  
    **“JOB Submitted”** will appear in the dashboard when the program is complete. 
 
 3. Launch your individual Spark worker output GUI to view the job you just submitted.
+    
     1. Click **‘Spark UI’**
+       ![alt text](images/spark-ui.png "Spark UI")
     2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
+       ![alt text](images/authenticate.png "Authenticate")
     3. Click on the **‘Worker ID’** for your program in the **‘Completed Drivers’** section
+       ![alt text](images/completed-drivers.png "Completed drivers")
     4. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
     5. Click on **‘stdout’** for your program in the **‘Finished Drivers’** section to view your results
+       ![alt text](images/finished-drivers.png "Finished drivers")
  
    Your results will show: 
    + The top 20 rows of the VSAM data (customer information) in the first table,
