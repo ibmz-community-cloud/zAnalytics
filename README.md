@@ -6,15 +6,16 @@
 The following instructions can be used to demonstrate running analytics applications using IBM Open Data Analytics for z/OS. This analytics examples use data stored in DB2 and VSAM tables, and machine learning algorithms written in Scala and Python. You will use fictitious customer information and credit card transaction data to evaluate customer retention.
 
 ## Architecture
+To be added
 
 ## Steps
 
 1. Sign up for an IBM Z Community Cloud account.
 2. Log in to the Self Service Portal.
-3. Configure your Analytics Instance and upload data
-4. Use case #1: Run a Scala program in batch mode
-5. Use case #2: Run a Python program with Jupyter Notebook 
-6. Use case #3: Run a Python program with Jupyter Notebook 
+3. Configure your Analytics Instance and upload data.
+4. Use case #1: Run a Scala program in batch mode.
+5. Use case #2: Run a Python program with Jupyter Notebook.
+
 
 ## Step 1. Sign up for an IBM Z Community Cloud account
 
@@ -25,7 +26,7 @@ The following instructions can be used to demonstrate running analytics applicat
 
 ## Step 2. Log in to the Self Service Portal
 
-The Mozilla Firefox browser is recommended for these examples.
+Note: The Mozilla Firefox browser is recommended for these examples.
 
 1. Open a web browser and access the [IBM Z Community Cloud self-service portal](https://zcloud.marist.edu/#/login). 
     1. Enter your Portal User ID and Portal Password
@@ -43,7 +44,7 @@ The Mozilla Firefox browser is recommended for these examples.
 
    | Function        | Operation                                                  | 
    | --------------- | ---------------------------------------------------------- | 
-   | Change Password | Click to change your Analytics instance password           |
+   | Change Password | Click to change your Analytics Instance password           |
    | Start           | Click to start your individual Spark cluster               |        
    | Stop            | Click to stop your individual Spark cluster                | 
    | Upload Data     | Click to select and load your DDL and data file into DB2   | 
@@ -53,7 +54,7 @@ The Mozilla Firefox browser is recommended for these examples.
 
 ## Step 3. Configure your Analytics Instance and upload data
 
-1. For logging in the first time, you must set a new Analytics instance password 
+1. For logging in the first time, you must set a new Analytics Instance password 
     1. Click **‘Change Password’** in the **‘Analytics Instance’** section
     2. Enter a **new password** for your Analytics Instance
     3. Repeat the **new password** for your Analytics Instance
@@ -91,42 +92,45 @@ The Mozilla Firefox browser is recommended for these examples.
 
 This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
-1. Download the prepared Scala program from [here](https://some-url) onto your local system.
+1. Download the prepared Scala program [ClientJoinVSAM.jar](https://some-url) to your local workstation.
 
 2. Submit the downloaded Scala program to analyze the data. 
     1. Click **‘Spark Submit’** 
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
-    4. Enter the arguments: <**Your Analytics Instance Username**> <**Your Analytics Instance Password**>
+    4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
     5. Click ‘Submit’
  
    **“JOB Submitted”** will appear in the dashboard when the program is complete. 
 
 3. Launch your individual Spark worker output GUI to view the job you just submitted.
     1. Click **‘Spark UI’**
-    2. Authenticate with your Analytics Instance Username and Analytics Instance Password
-    3. Click on the **‘Worker ID’** for your program in the ‘Completed Drivers’ section
-    4. Authenticate with your Analytics Instance Username and Analytics Instance Password
+    2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
+    3. Click on the **‘Worker ID’** for your program in the **‘Completed Drivers’** section
+    4. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
     5. Click on **‘stdout’** for your program in the **‘Finished Drivers’** section to view your results
  
    Your results will show: 
-   + The first table shows the top 20 rows of the VSAM data (customer information).
-   + The second table shows the top 20 rows of the DB2 data (transaction data).
-   + The third table shows the top 20 rows of the result ‘client_join’ table.
+   + The top 20 rows of the VSAM data (customer information) in the first table,
+   + The top 20 rows of the DB2 data (transaction data) in the second table, and
+   + The top 20 rows of the result ‘client_join’ table in the third table.
    
 ## Step 5. Working with Jupyter Notebook – Python example
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
+
 The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a pandas dataframe using python APIs and create plots using matplotlib. It will also perform a random forrest regression analysis and plot several charts.
 
-1. Download the [Jupyter Notebook](https://some-url) to your local system.
+1. Download the [Python3_Demo.ipynb](https://some-url) file to your local workstation.
 
 2. Launch the Jupyter Notebook service from your dashboard in your browser.
     1. Click **‘Jupyter’**
  
        You will see the Jupyter Notebook home page.
-3. Upload the Jupyter Notebook from your local system.    
-    1. Click .....
-    2. Select file
+
+3. Upload the Jupyter Notebook from your local workstation.    
+    1. Click **'Upload'**
+    2. Select the file
+    3. Click **'Open"**
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
