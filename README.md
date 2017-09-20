@@ -176,11 +176,11 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 
     1. Click the **Python3_Demo.ipynb** file
     
-    
+    ![alt text](images/python3-demo.png "Python3 Demo")
     
     2. Click **'Raw'**
     
-    
+    ![alt text](images/click-raw.png "Click Raw")
     
     3. From your browser's 'File' menu, select 'Save Page As...'
 
@@ -196,12 +196,11 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
        ![alt text](images/upload-notebook.png "Upload Notebook")
     2. Select the file Python3_Demo.ipynb from your local workstation
     3. Click **'Open'**
-
-4. Click **'Upload'**
+    4. Click **'Upload'**
        
-      ![alt text](images/upload-notebook2.png "Upload Notebook2")
+       ![alt text](images/upload-notebook2.png "Upload Notebook2")
 
-5. Click **'Python3_Demo.ipynb'**
+4. Click **'Python3_Demo.ipynb'**
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
