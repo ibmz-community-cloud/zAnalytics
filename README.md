@@ -30,7 +30,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
 1. Open a web browser and access the [IBM Z Community Cloud self-service portal](https://zcloud.marist.edu/#/login). 
    
-   ![alt text](images/portal_login.png "Portal login")
+   ![alt text](images/portal-login.png "Portal login")
 
     1. Enter your Portal User ID and Portal Password
     2. Click **'Sign In'**
