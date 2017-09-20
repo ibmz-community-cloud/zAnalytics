@@ -213,9 +213,11 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 5. The Python code in the first cell assigns variables and imports packages used in the example.
     
     1. Click on the first **‘In [ ]:’**
+    
     The left border will change to blue when a cell is in command mode.
     
     2. Click in the cell to edit
+    
     The left border will change to green when a cell is in edit mode.
 
     3. Change the value of USERNAME to your **‘Analytics Instance Username’**
