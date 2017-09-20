@@ -204,24 +204,34 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
       
       ![alt text](images/click-python3.png "Click Python3")
  
-The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. The environment is divided into input cells labeled with **‘In [#]:’**.  
+The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. 
 
-5. Run cell #1 - The Python code in the first cell assigns variables and imports packages used in the example.
+![alt text](images/python-indicator.png "Python Indicator")
+
+The environment is divided into input cells labeled with **‘In [#]:’**.  
+
+5. The Python code in the first cell assigns variables and imports packages used in the example.
     
     1. Click on the first **‘In [ ]:’**
-The left border will change to blue when a cell is in command mode.
+    The left border will change to blue when a cell is in command mode.
     
     2. Click in the cell to edit
-The left border will change to green when a cell is in edit mode.
+    The left border will change to green when a cell is in edit mode.
 
     3. Change the value of USERNAME to your **‘Analytics Instance Username’**
-	 4. Change the value of PASSWORD to your **‘Analytics Instance Password’**
+    4. Change the value of PASSWORD to your **‘Analytics Instance Password’**
+    
+    ![alt text](images/credentials.png "Credentials")
  
-Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
-6. Click the run cell button as shown below:
+6. Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
+    1. Click the run cell button as shown below:
+    
+    ![alt text](images/run-cell.png "Run Cell")
  
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
- 
+
+![alt text](images/python-indicator2.png "Python Indicator2")
+
 7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
 8.	Continue to click and run the remaining **‘In [ ]:’**.
 
