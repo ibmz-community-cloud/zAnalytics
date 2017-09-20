@@ -81,10 +81,10 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    
    ![alt text](images/start-stop.png "Start an instance")
  
-3. (Optional) The DB2 data for this exercise has already been loaded for you, no further action is required. The DDL and DB2 data file are provided here for your reference.  
+3. (Optional) The DB2 data for this exercise has already been loaded for you, no further action is required. The DDL and DB2 data file are provided in the [zAnalytics Github repository] for your reference.  
 
-   + [DB2 data file: sppaytb1.data](https://some-url)
-   + [DB2 DDL: sppaytb1.ddl](https://some-url)
+   + DB2 data file: sppaytb1.data
+   + DB2 DDL: sppaytb1.ddl
    
    Follow these steps if you wish to upload your own DB2 data.    
     1. Click **‘Upload Data’**        
@@ -97,10 +97,10 @@ Note: The Mozilla Firefox browser is recommended for these examples.
  
    You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
 
-4. (Optional) The VSAM data for this exercise has already been loaded for you, no further action is required. The VSAM copybook and VSAM data file are provided here for your reference.  
+4. (Optional) The VSAM data for this exercise has already been loaded for you, no further action is required. The VSAM copybook and VSAM data file are provided in the [zAnalytics Github repository] for your reference.  
 
-   + [VSAM data file: VSAM.BACKUP.DUMP.TERSE](https://some-url)
-   + [VSAM copybook: VSAM.COPYBOOK](https://some-url)
+   + VSAM data file: VSAM.BACKUP.DUMP.TERSE
+   + VSAM copybook: VSAM.COPYBOOK
    
    Follow these steps if you wish to upload your own VSAM data. 
     1. Click **‘Upload Data’**
@@ -117,21 +117,24 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
 The sample Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
-1. Download the prepared Scala program [ClientJoinVSAM.jar](https://some-url) to your local workstation.
+1. Download the prepared Scala program from the [zAnalytics Github repository] to your local workstation.
 
-    1. Click the file name.
-    2. Click Download.
+    1. Click the **ClientJoinVSAM.jar** file.
+    2. Click **Download**.
     
    ![alt text](images/download-scala.png "Download sample scala program") 
 
 2. Submit the downloaded Scala program to analyze the data. 
     
     1. Click **‘Spark Submit’** 
+    
        ![alt text](images/spark-submit.png "Spark submit")
+       
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
     4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
     5. Click **‘Submit’**
+    
        [alt text](images/spark-submit-details.png "Spark-submit details")
  
    **“JOB Submitted”** will appear in the dashboard when the program is complete. 
@@ -139,16 +142,25 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
 3. Launch your individual Spark worker output GUI to view the job you just submitted.
     
     1. Click **‘Spark UI’**
+    
        ![alt text](images/spark-ui.png "Spark UI")
+       
     2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
+    
        ![alt text](images/authenticate.png "Authenticate")
-    3. Click on the **‘Worker ID’** for your program in the **‘Completed Drivers’** section
+       
+    3. Click the **‘Worker ID’** for your program in the **‘Completed Drivers’** section
+    
        ![alt text](images/completed-drivers.png "Completed drivers")
+       
     4. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
+    
     5. Click on **‘stdout’** for your program in the **‘Finished Drivers’** section to view your results
+    
        ![alt text](images/finished-drivers.png "Finished drivers")
  
-   Your results will show: 
+   Your results will show:
+   
    + The top 20 rows of the VSAM data (customer information) in the first table,
    + The top 20 rows of the DB2 data (transaction data) in the second table, and
    + The top 20 rows of the result ‘client_join’ table in the third table.
@@ -191,3 +203,7 @@ The Jupyter Notebook connection to your Spark instance is in the busy state when
 4.	When this indicator turns clear, the cell run has completed and returned to the ready state.
 5.	Continue to click and run the remaining **‘In [ ]:’**.
 
+
+
+
+[zAnalytics Github repository]: https://github.com/ibmz-community-cloud/zAnalytics
