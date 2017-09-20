@@ -88,11 +88,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    
    Follow these steps if you wish to upload your own DB2 data.    
     1. Click **‘Upload Data’**        
+    
+    ![alt text](images/upload-data.png "Upload data")
+    
     2. Select the DB2 DDL file
     3. Select the DB2 data file
     4. Click **‘Upload’**
     
-       ![alt text](images/upload-data.png "Upload data")
        ![alt text](images/upload-db2.png "Upload Db2")
  
    You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
