@@ -30,13 +30,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
 1. Open a web browser and access the [IBM Z Community Cloud self-service portal](https://zcloud.marist.edu/#/login). 
     1. Enter your Portal User ID and Portal Password
-    2. Click **Sign In**
+    2. Click **'Sign In'**
 
 2. You will see the home page for the IBM Z Community Cloud self-service portal.  
-    1. Click **Try Analytics Service**
+    1. Click **'Try Analytics Service'**
  
 3. You will now see a dashboard, which shows the status of your Analytics instance. 
-   + At the top of the screen, notice the **z/OS Status** indicator, which should show the status of your instance as **OK**.
+   + At the top of the screen, notice the **'z/OS Status'** indicator, which should show the status of your instance as **'OK'**.
    + In the middle of the screen, the **‘Analytics Instance’**, **‘Status’**, **‘Data management’**, and **‘Operations’** sections will be displayed. The **‘Analytics Instance’** section contains your individual Analytics Instance Username and IP address.
    + Below the field headings, you will see buttons for functions that can be applied to your instance. 
  
@@ -130,7 +130,7 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 3. Upload the Jupyter Notebook from your local workstation.    
     1. Click **'Upload'**
     2. Select the file
-    3. Click **'Open"**
+    3. Click **'Open'**
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear.
  
