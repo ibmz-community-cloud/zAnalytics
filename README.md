@@ -177,6 +177,8 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
 2. Launch the Jupyter Notebook service from your dashboard in your browser.
     1. Click **‘Jupyter’**
  
+       ![alt text](images/select-jupyter.png "Select Jupyter")
+ 
        You will see the Jupyter Notebook home page.
 
 3. Upload the Jupyter Notebook from your local workstation.    
