@@ -206,7 +206,7 @@ The prepared Python program will access DB2 and VSAM data using the dsdbc driver
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. 
 
-![alt text](images/python-indicator.png "Python Indicator")
+![alt text](images/python3-indicator.png "Python3 Indicator")
 
 The environment is divided into input cells labeled with **‘In [#]:’**.  
 
@@ -232,7 +232,7 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
  
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
 
-![alt text](images/python-indicator2.png "Python Indicator2")
+![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
 7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
 8.	Continue to click and run the remaining **‘In [ ]:’**.
