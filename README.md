@@ -298,7 +298,7 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     4. Change the value of zOS_USERNAME to your **‘Analytics Instance Username’**
     5. Change the value of zOS_PASSWORD to your **‘Analytics Instance Password’**
     
-    ![alt text](images/python3-cell1.png "Python3 Cell1")
+    ![alt text](images/pyspark-cell1.png "PySpark Cell1")
  
 6. Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
     1. Click the run cell button as shown below:
