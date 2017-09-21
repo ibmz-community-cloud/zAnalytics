@@ -276,11 +276,11 @@ The prepared PySpark program will access DB2 and VSAM data using the dsdbc drive
 
 4. Click **'PySpark_Demo.ipynb'**
       
-      ![alt text](images/click-python3.png "Click Python3")
+      ![alt text](images/click-pyspark.png "Click PySpark")
  
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. 
 
-![alt text](images/python3-indicator.png "Python3 Indicator")
+![alt text](images/pyspark-indicator.png "PySpark Indicator")
 
 The environment is divided into input cells labeled with **‘In [#]:’**.  
 
