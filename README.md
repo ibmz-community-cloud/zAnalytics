@@ -3,7 +3,11 @@
 
 ## Overview
 
-The following instructions can be used to demonstrate running analytics applications using IBM Open Data Analytics for z/OS. This analytics examples use data stored in DB2 and VSAM tables, and machine learning algorithms written in Scala and Python. You will use fictitious customer information and credit card transaction data to evaluate customer retention.
+The following instructions can be used to explore analytics applications using IBM Open Data Analytics for z/OS. The analytics examples provided use data stored in DB2 and VSAM tables, and demonstrate machine learning algorithms such as random forest and logistic regression. You will use fictitious customer information and credit card transaction data to learn how a financial organization might analyze their enterprise data to evaluate customer retention.  
+
+    1. The first example demonstrates the Spark-submit function with an application written in Scala.
+    2. The second example demonstrates a client retention analysis using a Python 3 notebook.
+    3. The third example demonstrates a client retention analysis using PySpark APIs in a Python 3 notebook.
 
 ## Architecture
 To be added
