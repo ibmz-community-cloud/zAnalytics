@@ -280,7 +280,7 @@ The prepared PySpark program will access DB2 and VSAM data using the dsdbc drive
  
 The Jupyter Notebook will connect to your Analytics Instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. 
 
-![alt text](images/pyspark-indicator.png "PySpark Indicator")
+![alt text](images/python3-indicator.png "Python Indicator")
 
 The environment is divided into input cells labeled with **‘In [#]:’**.  
 
@@ -307,7 +307,7 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
  
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
 
-![alt text](images/pyspark-indicator2.png "PySpark Indicator2")
+![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
 7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
 8.	Continue to click and run the remaining **‘In [ ]:’**.
