@@ -174,7 +174,9 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
 ## Step 5. Use case #2: Run a Python program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
 
-The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a Pandas DataFrame using python APIs. It will also perform a random forrest regression analysis and plot several charts.
+The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, and join the two tables in a Pandas DataFrame using python APIs. It will also perform a random forest regression analysis and plot several charts.
+
+The data stored in VSAM consists of 6,001 rows of customer information. The data stored in DB2 consists of 20,000 rows of transaction data. The data is transformed and joined in a Pandas DataFrame, which is used to perform exploratory analyses. A random forest algorithm is then used to predict customer churn.
 
 1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
 
@@ -244,7 +246,9 @@ The Jupyter Notebook connection to your Spark instance is in the busy state when
 ## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
 
-The prepared PySpark program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a Spark dataframe using PySpark APIs. It will also perform a logistic regression analysis and create a plot using matplotlib. 
+The prepared PySpark program will access DB2 and VSAM data using the jdbc driver, perform transformations on the data, and join the tables in a Spark dataframe using PySpark APIs. It will also perform a logistic regression analysis and create a plot using matplotlib. 
+
+The data stored in VSAM consists of 6,001 rows of customer information. The data stored in DB2 consists of 20,000 rows of transaction data. The data is transformed and joined within a Spark dataframe, which is used to perform predictive analyses. A logistic regression algorithm is then used to evaluate cutomer activity level vs. churn.
 
 1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
 
