@@ -5,9 +5,9 @@
 
 The following instructions can be used to explore analytics applications using IBM Open Data Analytics for z/OS. The analytics examples provided use data stored in DB2 and VSAM tables, and demonstrate machine learning algorithms such as random forest and logistic regression. You will use fictitious customer information and credit card transaction data to learn how a financial organization might analyze their enterprise data to evaluate customer retention.  
 
-    1. The first example demonstrates the Spark-submit function with an application written in Scala.
-    2. The second example demonstrates a client retention analysis using a Python 3 notebook.
-    3. The third example demonstrates a client retention analysis using PySpark APIs in a Python 3 notebook.
+   1. The first example demonstrates the Spark-submit function with an application written in Scala.
+   2. The second example demonstrates a client retention analysis using a Python 3 notebook.
+   3. The third example demonstrates a client retention analysis using PySpark APIs in a Python 3 notebook.
 
 ## Architecture
 To be added
@@ -19,7 +19,7 @@ To be added
 3. Configure your Analytics Instance and upload data.
 4. Use case #1: Run a Scala program in batch mode.
 5. Use case #2: Run a Python program with Jupyter Notebook.
-
+6. Use case #3: Run a PySpark program with Jupyter Notebook.
 
 ## Step 1. Sign up for an IBM Z Community Cloud account
 
@@ -171,10 +171,10 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
    + The top 20 rows of the DB2 data (transaction data) in the second table, and
    + The top 20 rows of the result ‘client_join’ table in the third table.
    
-## Step 5. Working with Jupyter Notebook – Python example
+## Step 5. Use case #2: Run a Python program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
 
-The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a pandas dataframe using python APIs and create plots using matplotlib. It will also perform a random forrest regression analysis and plot several charts.
+The prepared Python program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a Pandas DataFrame using python APIs. It will also perform a random forrest regression analysis and plot several charts.
 
 1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
 
@@ -241,7 +241,76 @@ The Jupyter Notebook connection to your Spark instance is in the busy state when
 7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
 8.	Continue to click and run the remaining **‘In [ ]:’**.
 
+## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
+In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
 
+The prepared PySpark program will access DB2 and VSAM data using the dsdbc driver, perform transformations on the data, join these two tables in a Spark dataframe using PySpark APIs. It will also perform a logistic regression analysis and create a plot using matplotlib. 
+
+1. Download the prepared Python example from the [zAnalytics Github repository] to your local workstation.
+
+    1. Click the **PySpark_Demo.ipynb** file
+    
+    ![alt text](images/pyspark-demo.png "PySpark Demo")
+    
+    2. Click **'Raw'**
+    
+    ![alt text](images/click-raw.png "Click Raw")
+    
+    3. From your browser's 'File' menu, select 'Save Page As...', keep the file name 'PySpark_Demo.ipynb', and click 'Save'
+
+2. Launch the Jupyter Notebook service from your dashboard in your browser.
+    1. Click **‘Jupyter’**
+ 
+       ![alt text](images/select-jupyter.png "Select Jupyter")
+ 
+       You will see the Jupyter Notebook home page.
+
+3. Upload the Jupyter Notebook from your local workstation.    
+    1. Click **'Upload'**
+       ![alt text](images/upload-notebook.png "Upload Notebook")
+    2. Select PySpark_Demo.ipynb from your local workstation
+    3. Click **'Open'**
+    4. Click **'Upload'**
+       
+       ![alt text](images/upload-notebook2.png "Upload Notebook2")
+
+4. Click **'PySpark_Demo.ipynb'**
+      
+      ![alt text](images/click-python3.png "Click Python3")
+ 
+The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Python 3 indicator in the top right-hand corner of the screen is clear. 
+
+![alt text](images/python3-indicator.png "Python3 Indicator")
+
+The environment is divided into input cells labeled with **‘In [#]:’**.  
+
+5. The Python code in the first cell assigns variables and imports packages used in the example.
+    
+    1. Click on the first **‘In [ ]:’**
+    
+    The left border will change to blue when a cell is in command mode.
+    
+    2. Click in the cell to edit
+    
+    The left border will change to green when a cell is in edit mode.
+
+    3. Change the value of zOS_IP to your **‘Analytics Instance IP Address’**
+    4. Change the value of zOS_USERNAME to your **‘Analytics Instance Username’**
+    5. Change the value of zOS_PASSWORD to your **‘Analytics Instance Password’**
+    
+    ![alt text](images/credentials.png "Credentials")
+ 
+6. Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
+    1. Click the run cell button as shown below:
+    
+    ![alt text](images/run-cell.png "Run Cell")
+ 
+The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
+
+![alt text](images/python3-indicator2.png "Python3 Indicator2")
+
+7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
+8.	Continue to click and run the remaining **‘In [ ]:’**.
 
 
 [zAnalytics Github repository]: https://github.com/ibmz-community-cloud/zAnalytics
