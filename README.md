@@ -101,7 +101,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     
        ![alt text](images/upload-db2.png "Upload Db2")
  
-   You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
+   This process could take up to five minutes. You will see the status change from **‘Transferring’** to **‘Loading’** to **‘Upload Success’**.  
 
 4. (Optional) The VSAM data for this exercise has already been loaded for you, no further action is required. The VSAM copybook and VSAM data file are provided in the [zAnalytics Github repository] for your reference.  
 
