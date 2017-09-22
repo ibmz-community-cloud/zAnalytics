@@ -246,15 +246,15 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
 7. Click and run the second cell **‘In [ ]:’**.
 
-   If no error messages appear, the cell run was successful.
+    If no error messages appear, the cell run was successful.
 
 8.	Click and run the third cell **‘In [ ]:’**.
 
-   If no error messages appear, the cell run was successful.
+    If no error messages appear, the cell run was successful.
 
 9.	Click and run the fourth cell **‘In [ ]:’**.
 
-   If no error messages appear, the cell run was successful.
+    If no error messages appear, the cell run was successful.
 
 10. Click and run the fifth cell **‘In [ ]:’**.
 
