@@ -241,7 +241,17 @@ The Jupyter Notebook connection to your Spark instance is in the busy state when
 ![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
 7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
-8.	Continue to click and run the remaining **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output5.png "Python3 Output5")
+
+8.	Click and run the second cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output6.png "Python3 Output6")
+
 
 ## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
