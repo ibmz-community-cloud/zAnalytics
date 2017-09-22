@@ -435,5 +435,49 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     When this indicator turns clear, the cell run has completed and returned to the ready state.
     
     If no error messages appear, the cell run was successful.
+    
+6. Click and run the second cell **‘In [ ]:’**.
+
+   If no error messages appear, the cell run was successful.
+
+7.	Click and run the third cell **‘In [ ]:’**.
+
+   The output should be similar to the following:
+
+   ![alt text](images/pyspark-output3.png "PySpark Output3")
+
+8.	Click and run the fouth cell **‘In [ ]:’**.
+
+   The output should be similar to the following:
+
+   ![alt text](images/pyspark-output4.png "PySpark Output4")
+    
+9.	Click and run the fifth cell **‘In [ ]:’**.
+
+   The output should be similar to the following:
+
+   ![alt text](images/pyspark-output5.png "PySpark Output5")
+
+10. Click and run the sixth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/pyspark-output6.png "PySpark Output6")   
+    
+11. Click and run the seventh cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/pyspark-output7.png "PySpark Output7")   
+
+12. Click and run the eighth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/pyspark-output8.png "PySpark Output8")
+  
+  
+  
+    
 
 [zAnalytics Github repository]: https://github.com/ibmz-community-cloud/zAnalytics
