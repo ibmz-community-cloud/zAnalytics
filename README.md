@@ -442,21 +442,21 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
 7.	Click and run the third cell **‘In [ ]:’**.
 
-   The output should be similar to the following:
+    The output should be similar to the following:
 
-   ![alt text](images/pyspark-output3.png "PySpark Output3")
+    ![alt text](images/pyspark-output3.png "PySpark Output3")
 
 8.	Click and run the fouth cell **‘In [ ]:’**.
 
-   The output should be similar to the following:
+    The output should be similar to the following:
 
-   ![alt text](images/pyspark-output4.png "PySpark Output4")
+    ![alt text](images/pyspark-output4.png "PySpark Output4")
     
 9.	Click and run the fifth cell **‘In [ ]:’**.
 
-   The output should be similar to the following:
+    The output should be similar to the following:
 
-   ![alt text](images/pyspark-output5.png "PySpark Output5")
+    ![alt text](images/pyspark-output5.png "PySpark Output5")
 
 10. Click and run the sixth cell **‘In [ ]:’**.
 
