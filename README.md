@@ -268,6 +268,50 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
     ![alt text](images/python3-output6.png "Python3 Output6")
 
+12. Click and run the seventh cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+13. Click and run the eighth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+14. Click and run the ninth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+15. Click and run the tenth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+16. Click and run the eleventh cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output11.png "Python3 Output11")
+
+17. Click and run the twelfth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+18. Click and run the thirteenth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+19. Click and run the fourteenth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+20. Click and run the fifteenth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output15.png "Python3 Output15")
+
+
+
+
+
 
 
 
