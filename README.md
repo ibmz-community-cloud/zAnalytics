@@ -167,9 +167,9 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
  
    Your results will show:
    
-   + The top 20 rows of the VSAM data (customer information) in the first table,
-   + The top 20 rows of the DB2 data (transaction data) in the second table, and
-   + The top 20 rows of the result ‘client_join’ table in the third table.
+   + the top 20 rows of the VSAM data (customer information) in the first table,
+   + the top 20 rows of the DB2 data (transaction data) in the second table, and
+   + the top 20 rows of the result ‘client_join’ table in the third table.
    
 ## Step 5. Use case #2: Run a Python program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
