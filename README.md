@@ -339,11 +339,29 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
     If no error messages appear, the cell run was successful.
 
+26. Click and run the twenty-second cell **‘In [ ]:’**.
 
+    If no error messages appear, the cell run was successful.
 
+27. Click and run the twenty-third cell **‘In [ ]:’**.
 
+    If no error messages appear, the cell run was successful.
 
+28. Click and run the twenty-fourth cell **‘In [ ]:’**.
 
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output24.png "Python3 Output24")
+
+29. Click and run the twenty-fifth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+30. Click and run the twenty-sixth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output26.png "Python3 Output26")
 
 ## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
