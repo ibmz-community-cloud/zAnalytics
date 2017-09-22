@@ -236,17 +236,17 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     
     ![alt text](images/run-cell.png "Run Cell")
  
-The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
+    The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
 
-![alt text](images/python3-indicator2.png "Python3 Indicator2")
+    ![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
-7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
+    When this indicator turns clear, the cell run has completed and returned to the ready state.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output5.png "Python3 Output5")
 
-8.	Click and run the second cell **‘In [ ]:’**.
+7.	Click and run the second cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
