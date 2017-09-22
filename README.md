@@ -408,7 +408,7 @@ The Jupyter Notebook will connect to your Analytics Instance automatically and w
 
 The environment is divided into input cells labeled with **‘In [#]:’**.  
 
-5. The Python code in the first cell assigns variables and imports packages used in the example.
+5. Execute the Python code in the first cell.
     
     1. Click on the first **‘In [ ]:’**
     
@@ -424,17 +424,16 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     
     ![alt text](images/pyspark-cell1.png "PySpark Cell1")
  
-6. Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
-    1. Click the run cell button as shown below:
+    6. Click the run cell button as shown below:
     
     ![alt text](images/run-cell.png "Run Cell")
- 
-The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
+    
+    Jupyter Notebook will check the Python code for syntax errors and run the code for you. The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
 
-![alt text](images/python3-indicator2.png "Python3 Indicator2")
+    ![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
-7.	When this indicator turns clear, the cell run has completed and returned to the ready state.
-8.	Continue to click and run the remaining **‘In [ ]:’**.
-
+    When this indicator turns clear, the cell run has completed and returned to the ready state.
+    
+    If no error messages appear, the cell run was successful.
 
 [zAnalytics Github repository]: https://github.com/ibmz-community-cloud/zAnalytics
