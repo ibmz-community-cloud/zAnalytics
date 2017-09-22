@@ -216,7 +216,7 @@ The Jupyter Notebook will connect to your Analytics Instance automatically and w
 
 The environment is divided into input cells labeled with **‘In [#]:’**.  
 
-5. The Python code in the first cell assigns variables and imports packages used in the example.
+5. Execute the Python code in the first cell.
     
     1. Click on the first **‘In [ ]:’**
     
@@ -231,12 +231,11 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     
     ![alt text](images/python3-cell1.png "Python3 Cell1")
  
-6. Execute the Python code in the first cell. Jupyter Notebook will check the Python code for syntax errors and run the code for you.
-    1. Click the run cell button as shown below:
+    5. Click the run cell button as shown below:
     
     ![alt text](images/run-cell.png "Run Cell")
- 
-    The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
+
+    Jupyter Notebook will check the Python code for syntax errors and run the code for you. The Jupyter Notebook connection to your Spark instance is in the busy state when the Python 3 indicator in the top right-hand corner of the screen is grey. 
 
     ![alt text](images/python3-indicator2.png "Python3 Indicator2")
 
@@ -244,70 +243,101 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
     If no error messages appear, the cell run was successful.
 
-7. Click and run the second cell **‘In [ ]:’**.
+6. Click and run the second cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-8.	Click and run the third cell **‘In [ ]:’**.
+7.	Click and run the third cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-9.	Click and run the fourth cell **‘In [ ]:’**.
+8.	Click and run the fourth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-10. Click and run the fifth cell **‘In [ ]:’**.
+9. Click and run the fifth cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output5.png "Python3 Output5")
 
-11. Click and run the sixth cell **‘In [ ]:’**.
+10. Click and run the sixth cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output6.png "Python3 Output6")
 
-12. Click and run the seventh cell **‘In [ ]:’**.
+11. Click and run the seventh cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-13. Click and run the eighth cell **‘In [ ]:’**.
+12. Click and run the eighth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-14. Click and run the ninth cell **‘In [ ]:’**.
+13. Click and run the ninth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-15. Click and run the tenth cell **‘In [ ]:’**.
+14. Click and run the tenth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-16. Click and run the eleventh cell **‘In [ ]:’**.
+15. Click and run the eleventh cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output11.png "Python3 Output11")
 
-17. Click and run the twelfth cell **‘In [ ]:’**.
+16. Click and run the twelfth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-18. Click and run the thirteenth cell **‘In [ ]:’**.
+17. Click and run the thirteenth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-19. Click and run the fourteenth cell **‘In [ ]:’**.
+18. Click and run the fourteenth cell **‘In [ ]:’**.
 
     If no error messages appear, the cell run was successful.
 
-20. Click and run the fifteenth cell **‘In [ ]:’**.
+19. Click and run the fifteenth cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output15.png "Python3 Output15")
 
+20. Click and run the sixteenth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output16.png "Python3 Output16")
+
+21. Click and run the seventeenth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output17.png "Python3 Output17")
+
+22. Click and run the eighteenth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output18.png "Python3 Output18")
+
+23. Click and run the nineteenth cell **‘In [ ]:’**.
+
+    The output should be similar to the following:
+
+    ![alt text](images/python3-output19.png "Python3 Output19")
+
+24. Click and run the twentieth cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
+
+25. Click and run the twenty-first cell **‘In [ ]:’**.
+
+    If no error messages appear, the cell run was successful.
 
 
 
