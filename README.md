@@ -108,13 +108,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    + VSAM data file: VSAM.BACKUP.DUMP.TERSE
    + VSAM copybook: VSAM.COPYBOOK
    
-   Follow these steps if you wish to upload your own VSAM data. 
+   Follow these steps if you wish to upload the example VSAM data. 
     1. Click **‘Upload Data’**
     2. Select the VSAM copybook
     3. Select the VSAM data file
-    4. Enter your original (existing) VSAM data file name
-    5. Enter a target (new) VSAM data file name
-    6. Enter a virtual table name for your target VSAM data file 
+    4. Enter the original VSAM data file name as shown in the below figure
+    5. Enter the target VSAM data file name as shown in the below figure
+    6. Enter the virtual table name for your target VSAM data file as shown in the below figure
     7. Click **‘Upload’**
    
        ![alt text](images/upload-vsam.png "Upload VSAM")
