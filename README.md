@@ -242,15 +242,33 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
     When this indicator turns clear, the cell run has completed and returned to the ready state.
 
+    If no error messages appear, the cell run was successful.
+
+7.	Click and run the second cell **‘In [ ]:’**.
+
+   If no error messages appear, the cell run was successful.
+
+8.	Click and run the third cell **‘In [ ]:’**.
+
+   If no error messages appear, the cell run was successful.
+
+9.	Click and run the fourth cell **‘In [ ]:’**.
+
+   If no error messages appear, the cell run was successful.
+
+10. Click and run the fifth cell **‘In [ ]:’**.
+
     The output should be similar to the following:
 
     ![alt text](images/python3-output5.png "Python3 Output5")
 
-7.	Click and run the second cell **‘In [ ]:’**.
+11. Click and run the sixth cell **‘In [ ]:’**.
 
     The output should be similar to the following:
 
     ![alt text](images/python3-output6.png "Python3 Output6")
+
+
 
 
 ## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
