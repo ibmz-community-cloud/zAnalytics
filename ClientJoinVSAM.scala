@@ -19,8 +19,8 @@ object ClientJoinVSAM {
      
      val username = args(0)
      val password = args(1)
-     val vsam_string = "jdbc:rs:dv://127.0.0.1:1200; DBTY=DVS; SUBSYS=NONE; UID=" + username + "; PWD=" + password + "; LogConfiguration=file:///home/spkid2/DSDriver/log4j2.xml;"
-     val db2_string = "jdbc:rs:dv://127.0.0.1:1200; DBTY=DB2; SUBSYS=DBBG; UID=" + username + "; PWD=" + password + "; LogConfiguration=file:///home/spkid2/DSDriver/log4j2.xml;"
+     val vsam_string = "jdbc:rs:dv://127.0.0.1:1200; DBTY=DVS; SUBSYS=NONE; UID=" + username + "; PWD=" + password
+     val db2_string = "jdbc:rs:dv://127.0.0.1:1200; DBTY=DB2; SUBSYS=DBBG; UID=" + username + "; PWD=" + password
      import spark.implicits._
      
      val clientIncome_df = spark.read
@@ -34,7 +34,7 @@ object ClientJoinVSAM {
                            .format("jdbc")
                            .option("driver", "com.rs.jdbc.dv.DvDriver")
                            .option("url", db2_string)
-                           .option("dbtable", "sppaytb1")
+                           .option("dbtable", "sparkdb.sppaytb1")
                            .load()
      clientTrans_df.show()
     /**************************************************************/ 
