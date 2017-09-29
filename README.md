@@ -1,4 +1,3 @@
-# **** Work in Progress ****
 # Running Analytics on z/OS
 
 ## Overview
