@@ -9,7 +9,7 @@ The following instructions can be used to explore analytics applications using I
    3. The third example demonstrates a client retention analysis using PySpark APIs in a Python 3 notebook.
 
 ## Architecture
-To be added
+   ![alt text](images/izoda.png "IzODA")
 
 ## Steps
 
