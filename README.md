@@ -362,7 +362,7 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
     ![alt text](images/python3-output26.png "Python3 Output26")
 
-## Step 6. Use case #2: Run a PySpark program with Jupyter Notebook
+## Step 6. Use case #3: Run a PySpark program with Jupyter Notebook
 In this section, you will use the Jupyter Notebook tool that is installed in the dashboard. This tool allows you to write and submit Python code, and view the output within a web GUI.
 
 The prepared PySpark program will access DB2 and VSAM data using the jdbc driver, perform transformations on the data, and join the tables in a Spark dataframe using PySpark APIs. It will also perform a logistic regression analysis and create a plot using matplotlib. 
