@@ -94,9 +94,10 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     
     ![alt text](images/upload-data.png "Upload data")
     
-    2. Select the DB2 DDL file
-    3. Select the DB2 data file
-    4. Click **‘Upload’**
+    2. Select 'DB2'
+    3. Select the DB2 DDL file
+    4. Select the DB2 data file
+    5. Click **‘Upload’**
     
        ![alt text](images/upload-db2.png "Upload Db2")
  
@@ -109,12 +110,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    
    Follow these steps if you wish to upload the example VSAM data. 
     1. Click **‘Upload Data’**
-    2. Select the VSAM copybook
-    3. Select the VSAM data file
-    4. Enter the original VSAM data file name as shown in the below figure
-    5. Enter the target VSAM data file name as shown in the below figure
-    6. Enter the virtual table name for your target VSAM data file as shown in the below figure
-    7. Click **‘Upload’**
+    2. Select 'VSAM'
+    3. Select the VSAM copybook
+    4. Select the VSAM data file
+    5. Enter the original VSAM data file name as shown in the below figure
+    6. Enter the target VSAM data file name as shown in the below figure
+    7. Enter the virtual table name for your target VSAM data file as shown in the below figure
+    8. Click **‘Upload’**
    
        ![alt text](images/upload-vsam.png "Upload VSAM")
  
