@@ -119,6 +119,15 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     8. Click **‘Upload’**
    
        ![alt text](images/upload-vsam.png "Upload VSAM")
+5. (Optional) You may upload your own Comma Separated Values (CSV) file, which will be stored in your analytics instance’s file system.
+
+   Follow these steps if you wish to upload a CSV file.
+    1. Click **‘Upload Data’**
+    2. Select 'CSV'
+    3. Select your CSV file
+    4. Click **‘Upload’**
+
+       ![alt text](images/upload-csv.png "Upload CSV")
  
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
@@ -476,9 +485,37 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
     The output should be similar to the following:
 
     ![alt text](images/pyspark-output8.png "PySpark Output8")
-  
-  
-  
-    
+
+## Step 7.  Extras
+1. You may view a list of packages that are pre-installed in your instance and available to use in your analytics applications.  
+   
+   From the dashboard, 
+   i. Click ‘Which packages can I use with IBM Z Community Cloud?’
+
+   ![alt text](images/Extras-1.png "Extras 1") 
+
+   ii. Click ‘full list’
+   
+   ![alt text](images/Extras-2.png "Extras 2") 
+
+      The link will open a GitHub page with a list of installed packages and version numbers.
+
+      If you don’t see a package listed, you may submit a request for review consideration.
+
+   iii. Click ‘Let us know!’
+   
+   ![alt text](images/Extras-3.png "Extras 3")
+   
+   iv. Enter the package name and version number you would like to request 
+
+   v.  Enter the reason you are requesting the package
+
+   vi. Click ‘Request Package’
+
+   ![alt text](images/Extras-4.png "Extras 4")
+
+   vii. Click ‘OK’
+
+   ![alt text](images/Extras-5.png "Extras 5") 
 
 [zAnalytics Github repository]: https://github.com/ibmz-community-cloud/zAnalytics
