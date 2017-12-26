@@ -490,11 +490,11 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 1. You may view a list of packages that are pre-installed in your instance and available to use in your analytics applications.  
    
    From the dashboard, 
-   i. Click ‘Which packages can I use with IBM Z Community Cloud?’
+   1. Click ‘Which packages can I use with IBM Z Community Cloud?’
 
    ![alt text](images/Extras-1.png "Extras 1") 
 
-   ii. Click ‘full list’
+   2. Click ‘full list’
    
    ![alt text](images/Extras-2.png "Extras 2") 
 
@@ -502,19 +502,19 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
       If you don’t see a package listed, you may submit a request for review consideration.
 
-   iii. Click ‘Let us know!’
+   3. Click ‘Let us know!’
    
    ![alt text](images/Extras-3.png "Extras 3")
    
-   iv. Enter the package name and version number you would like to request 
+   4. Enter the package name and version number you would like to request 
 
-   v.  Enter the reason you are requesting the package
+   5.  Enter the reason you are requesting the package
 
-   vi. Click ‘Request Package’
+   6. Click ‘Request Package’
 
    ![alt text](images/Extras-4.png "Extras 4")
 
-   vii. Click ‘OK’
+   7. Click ‘OK’
 
    ![alt text](images/Extras-5.png "Extras 5") 
 
