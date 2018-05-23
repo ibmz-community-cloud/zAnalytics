@@ -50,7 +50,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    ![alt text](images/dashboard.png "Dashboard")
    
    + At the top of the screen, notice the **'z/OS Status'** indicator, which should show the status of your instance as **'OK'**.     
-   + In the middle of the screen, the **‘Analytics Instance’**, **‘Status’**, **‘Data management’**, and **‘Operations’** sections will be displayed. The **‘Analytics Instance’** section contains your individual Analytics Instance Username and IP address.
+   + In the middle of the screen, the **‘Analytics Instance’**, **‘Status’**, **‘Data management’**, and **‘Operations’** sections will be displayed. The **‘Analytics Instance’** section contains your individual **'Analytics Instance Username'** and IP address.
    + Below the field headings, you will see buttons for functions that can be applied to your instance. 
  
   The following table lists the operation for each function:
@@ -75,6 +75,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     2. Enter a **new password** for your Analytics Instance (Spark on z/OS)
     3. Repeat the **new password** for your Analytics Instance (Spark on z/OS)
     4. Click **‘Change Password’**
+    5. This is your **'Analytics Instance Password'** that will be used for subsequent steps
  
    ![alt text](images/change-password-details.png "Change password details")
    
@@ -148,7 +149,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
        
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
-    4. Enter the arguments: <**Your 'Spark Username'**> <**Your 'Spark Password'**>   ( Please note this is NOT email and password you use to login IBM Z Community Cloud! ) 
+    4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>   ( Please note this is NOT the username  and password you used to login to the IBM Z Community Cloud! ) 
     5. Click **‘Submit’**
     
        ![alt text](images/spark-submit-details.png "Spark-submit details")
@@ -161,7 +162,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     
        ![alt text](images/spark-ui.png "Spark UI")
        
-    2. Authenticate with your **'Spark Username'** and **'Spark Password'**    ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
+    2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**    ( Please note this is NOT the username  and password you used to login to the IBM Z Community Cloud! )
     
        ![alt text](images/authenticate.png "Authenticate")
        
@@ -169,7 +170,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     
        ![alt text](images/completed-drivers.png "Completed drivers")
        
-    4. Authenticate with your **'Spark Username'** and **'Spark Password'**     ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
+    4. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**     ( Please note this is NOT the username  and password you used to login to the IBM Z Community Cloud! )
     
     5. Click on **‘stdout’** for your program in the **‘Finished Drivers’** section to view your results
     
