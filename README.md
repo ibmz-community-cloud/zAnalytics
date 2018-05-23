@@ -72,7 +72,10 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    ![alt text](images/change-password.png "Change password")
    
     1. Click **‘Change Password’** in the **‘Analytics Instance’** section
-    2. Enter a **new password** for your Analytics Instance (Spark on z/OS)
+    2. Enter a **new password** for your Analytics Instance (Spark on z/OS) Please note, the following symbols are not allowed in the password:
+    
+   ![alt text](images/symbols.png) 
+    
     3. Repeat the **new password** for your Analytics Instance (Spark on z/OS)
     4. Click **‘Change Password’**
     5. This is your **'Analytics Instance Password'** that will be used for subsequent steps
