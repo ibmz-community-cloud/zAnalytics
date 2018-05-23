@@ -148,7 +148,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
        
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
-    4. Enter the arguments: <**Your 'Spark Username'**> <**Your 'Spark Password'**> (Please note it's not the email and password you use to login IBM Z Community Cloud!) 
+    4. Enter the arguments: <**Your 'Spark Username'**> <**Your 'Spark Password'**>   ( Please note this is NOT email and password you use to login IBM Z Community Cloud! ) 
     5. Click **‘Submit’**
     
        ![alt text](images/spark-submit-details.png "Spark-submit details")
@@ -161,7 +161,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     
        ![alt text](images/spark-ui.png "Spark UI")
        
-    2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**
+    2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**    ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
     
        ![alt text](images/authenticate.png "Authenticate")
        
