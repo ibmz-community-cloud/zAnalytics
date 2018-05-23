@@ -161,7 +161,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     
        ![alt text](images/spark-ui.png "Spark UI")
        
-    2. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**    ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
+    2. Authenticate with your **'Spark Username'** and **'Spark Password'**    ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
     
        ![alt text](images/authenticate.png "Authenticate")
        
@@ -169,7 +169,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
     
        ![alt text](images/completed-drivers.png "Completed drivers")
        
-    4. Authenticate with your **'Analytics Instance Username'** and **'Analytics Instance Password'**     ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
+    4. Authenticate with your **'Spark Username'** and **'Spark Password'**     ( Please note this is NOT email and password you use to login IBM Z Community Cloud! )
     
     5. Click on **‘stdout’** for your program in the **‘Finished Drivers’** section to view your results
     
