@@ -67,13 +67,13 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
 ## Step 3. Configure your Analytics Instance and upload data
 
-1. For logging in the first time, you must set a new Analytics Instance password.
+1. For logging in the first time, you must set a new Analytics Instance (Spark on z/OS) password.
    
    ![alt text](images/change-password.png "Change password")
    
     1. Click **‘Change Password’** in the **‘Analytics Instance’** section
-    2. Enter a **new password** for your Analytics Instance
-    3. Repeat the **new password** for your Analytics Instance
+    2. Enter a **new password** for your Analytics Instance (Spark on z/OS)
+    3. Repeat the **new password** for your Analytics Instance (Spark on z/OS)
     4. Click **‘Change Password’**
  
    ![alt text](images/change-password-details.png "Change password details")
@@ -148,7 +148,7 @@ The sample Scala program will access DB2 and VSAM data, perform transformations 
        
     2. Select the **‘ClientJoinVSAM.jar’** file you just downloaded
     3. Specify Main class name **‘com.ibm.scalademo.ClientJoinVSAM’**
-    4. Enter the arguments: <**Your 'Analytics Instance Username'**> <**Your 'Analytics Instance Password'**>
+    4. Enter the arguments: <**Your 'Spark Username'**> <**Your 'Spark Password'**> (Please note it's not the email and password you use to login IBM Z Community Cloud!) 
     5. Click **‘Submit’**
     
        ![alt text](images/spark-submit-details.png "Spark-submit details")
