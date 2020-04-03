@@ -2,7 +2,7 @@
 
 ## Overview
 
-The following instructions can be used to explore analytics applications using IBM Open Data Analytics for z/OS. The analytics examples provided use data stored in DB2 and VSAM tables, and demonstrate machine learning algorithms such as random forest and logistic regression. You will use fictitious customer information and credit card transaction data to learn how a financial organization might analyze their enterprise data to evaluate customer retention.  
+The following instructions can be used to explore analytics applications using IBM Open Data Analytics for z/OS. The analytics examples provided use data stored in DB2 and VSAM tables, and demonstrate machine learning algorithms such as random forest and logistic regression. You will use fictitious customer information and credit card transaction data to learn how a financial organization might analyze their enterprise data to evaluate customer retention.  User may also upload their own data (DB2 tables, VSAM datasets or CSV files) into the systems for further exploitation of IzODA.  Please pay attention to that due to the resource limitation, don't upload files larger than 100MB. 
 
       1. The first example demonstrates the Spark-submit function with an application written in Scala.
       2. The second example demonstrates a client retention analysis using a Python 3 notebook.
