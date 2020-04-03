@@ -35,8 +35,8 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
    ![alt text](images/portal-login.png "Portal login")
 
-     1. Enter your Portal User ID and Portal Password
-     2. Click **'Sign In'**
+       1. Enter your Portal User ID and Portal Password
+       2. Click **'Sign In'**
        You will see the home page for the IBM Z Community Cloud self-service portal.  
 
 2. Select the **Analytics Service**.
@@ -73,10 +73,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
    ![alt text](images/change-password.png "Change password")
 ​    
-    2. Enter a **new password** for your Analytics Instance (Spark on z/OS). Please note that the password should be no longer than 8 characters, and the following symbols are not allowed in the password:
-
-   ![alt text](images/symbols.png "Symbols") 
-​    
+    2. Enter a **new password** for your Analytics Instance (Spark on z/OS). Please note that the password should be no longer than 8 characters, and has to be alphanumeric.
     3. Repeat the **new password** for your Analytics Instance (Spark on z/OS)
     4. Click **‘Change Password’**
 
@@ -96,7 +93,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    + DB2 DDL: sppaytb1.ddl
 
    Follow these steps if you wish to upload your own DB2 data.    
-     1. Click **‘Upload Data’**        
+       1. Click **‘Upload Data’**        
 
     ![alt text](images/upload-data.png "Upload data")
 
@@ -289,7 +286,7 @@ The environment is divided into input cells labeled with **‘In [#]:’**.
 
 10. Click and run the eighth cell **‘In [ ]:’**.
 
-   If no error messages appear, the cell run was successful.
+  If no error messages appear, the cell run was successful.
 
 11. Click and run the ninth cell **‘In [ ]:’**.
 
