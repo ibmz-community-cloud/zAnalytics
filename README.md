@@ -82,6 +82,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
    ![alt text](images/change-password-details.png "Change password details")
 ​    
+
     5. This is your **'Analytics Instance Password'** that will be used for subsequent steps
 
 2. Confirm your instance is Active. 
@@ -96,7 +97,8 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    + DB2 DDL: sppaytb1.ddl
 
    Follow these steps if you wish to upload your own DB2 data.    
-       1. Click **‘Upload Data’**        
+
+    1. Click **‘Upload Data’**        
 
     ![alt text](images/upload-data.png "Upload data")
 
