@@ -138,7 +138,9 @@ Note: The Mozilla Firefox browser is recommended for these examples.
        ![alt text](images/upload-csv.png "Upload CSV")
 
     This process could take a few munites or even longer, depends on the file size to be uploaded.  You will see the status change from 'Transferring' to 'Loading' to 'Upload Success'.
+
 	   ![alt text](images/upload_success.png "Upload Success")
+
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
 The sample Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
