@@ -98,7 +98,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
    Follow these steps if you wish to upload your own DB2 data.    
 
-     1. Click **‘Upload Data’**        
+       1. Click **‘Upload Data’**        
 
     ![alt text](images/upload-data.png "Upload data")
 
@@ -127,6 +127,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     8. Click **‘Upload’**
 
        ![alt text](images/upload-vsam.png "Upload VSAM")
+
 5. (Optional) You may upload your own Comma Separated Values (CSV) file, which will be stored in your analytics instance’s file system.
 
    Follow these steps if you wish to upload a CSV file.
@@ -139,7 +140,8 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
     This process could take a few munites or even longer, depends on the file size to be uploaded.  You will see the status change from 'Transferring' to 'Loading' to 'Upload Success'.
 
-       ![image](images/upload-success.png "Upload Success")
+   ![upload-success](images/upload-success.png)
+
 
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
