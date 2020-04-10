@@ -141,7 +141,8 @@ Note: The Mozilla Firefox browser is recommended for these examples.
     This process could take a few munites or even longer, depends on the file size to be uploaded.  You will see the status change from 'Transferring' to 'Loading' to 'Upload Success'.
 
    ![upload-success](images/upload-success.png)
-    You may also use simple python code to check if the file has been transferred to your z/OS system, like following:
+    
+	You may also use simple python code to check if the file has been transferred to your z/OS system, like following:
    ```python
    import glob
    print(glob.glob("*.csv"))
