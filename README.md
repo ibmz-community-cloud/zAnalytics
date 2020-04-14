@@ -22,10 +22,9 @@ The following instructions can be used to explore analytics applications using I
 
 ## Step 1. Sign up for an IBM Z Community Cloud account
 
-1. If you have not done so already, go to [IBM z Systems Trial Program](http://www-03.ibm.com/systems/z/resources/trials.html) and register for a 30-day trial account. 
-2. Select the **Analytics Service on z/OS** trial. 
-3. Fill out and submit the registration form.
-4. You will receive an email containing credentials to access the self-service portal. This is where you can start exploring all our available services.
+1. If you have not done so already, go to [IBM Z Community Cloud Registration page](https://zcloud.marist.edu) and register for a 30-day trial account. 
+2. Fill out and submit the registration form.
+3. You will receive an email containing credentials to access the self-service portal. This is where you can start exploring all our available services.
 
 ## Step 2. Log in to the Self Service Portal
 
