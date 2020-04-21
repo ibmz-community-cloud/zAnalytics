@@ -139,7 +139,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
     This process could take a few munites or even longer, depends on the file size to be uploaded.  You will see the status change from 'Transferring' to 'Loading' to 'Upload Success'.
 
-       ![upload-success](images/upload-success.png)
+   ![upload-success](images/upload-success.png)
     
    You have a file size limit of 200MB. **Please note**: When uploading files larger than 100MB the upload window indicating upload in progress will disappear, but the upload is in progress in the back end. After ~10 mins, use 
    ```python
