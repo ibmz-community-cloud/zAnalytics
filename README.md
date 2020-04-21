@@ -146,7 +146,7 @@ Note: The Mozilla Firefox browser is recommended for these examples.
    import glob
    print(glob.glob("*.csv"))
    ```
-to check the files uploaded to your z/OS instance
+    to check the files uploaded to your z/OS instance
 
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
