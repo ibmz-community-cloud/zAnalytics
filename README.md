@@ -141,11 +141,12 @@ Note: The Mozilla Firefox browser is recommended for these examples.
 
    ![upload-success](images/upload-success.png)
     
-	You may also use simple python code to check if the file has been transferred to your z/OS system, like following:
+   You have a file size limit of 200MB. **Please note**: When uploading files larger than 100MB the upload window indicating upload in progress will disappear, but the upload is in progress in the back end. After ~10 mins, use 
    ```python
    import glob
    print(glob.glob("*.csv"))
    ```
+to check the files uploaded to your z/OS instance
 
 ## Step 4. Use case #1: Run a Scala program in batch mode
 
